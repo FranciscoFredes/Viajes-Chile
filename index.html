@@ -9,7 +9,9 @@
     <!-- Vinculando css -->
     <link rel="stylesheet" href="/assets/css/style.css" as="stylesheet">
     <!-- Vinculando Bootsrap 5.3.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- favIcons -->
+    <script src="https://kit.fontawesome.com/c892ce6733.js" crossorigin="anonymous"></script>    
 </head>
 <body>
     <header>    
@@ -50,7 +52,7 @@
             </div>
             </nav>      
             <!-- Carrusel, se ajusta la altura con style="height:40rem"  -->
-            <section id="carousel-header ">   
+            <section id="carousel-header">   
             <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,9 +82,61 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-          </section>        
+          </section>  
+          <!-- Seccion de "quienes somos" con 3 columnas que desaparecen en pantallas pequeñas  -->
+          <section id="quienes-somos">
+            <div class="container text-light pb-3 d-sm-none d-md-block">
+              <h2 class="text-center text-light px-5">¿QUIÉNES SOMOS?</h2>
+            <div class="row  px-4">
+                <div class="col-md-4 mb-3"><i class="fa-solid fa-plane fa-xl bg-info d-block text-center py-4"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fugiat vitae quibusdam hic dicta reiciendis reprehenderit, quas, eligendi fuga dolorum veritatis soluta officia culpa iste tenetur quaerat? Modi at magnam veritatis nihil, ipsam, ducimus officia provident esse suscipit reiciendis adipisci ea totam aspernatur sequi eum enim dolorum incidunt neque cum corporis repudiandae voluptatibus. Assumenda, dolorum illum architecto consequatur quia ipsa error natus beatae, eius, ullam reprehenderit iste facilis accusantium delectus repudiandae dolores corrupti voluptatibus labore at provident suscipit. Minima quasi rerum, molestias porro quod veniam sapiente totam distinctio omnis cupiditate doloribus eligendi, repudiandae dolorum, sint sunt soluta perferendis deserunt et.</div>
+                <div class="col-md-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fugiat vitae quibusdam hic dicta reiciendis reprehenderit, quas, eligendi fuga dolorum veritatis soluta officia culpa iste tenetur quaerat? Modi at magnam veritatis nihil, ipsam, ducimus officia provident esse suscipit reiciendis adipisci ea totam aspernatur sequi eum enim dolorum incidunt neque cum corporis repudiandae voluptatibus. Assumenda, dolorum illum architecto consequatur quia ipsa error natus beatae, eius, ullam reprehenderit iste facilis accusantium delectus repudiandae dolores corrupti voluptatibus labore at provident suscipit. Minima quasi rerum, molestias porro quod veniam sapiente totam distinctio omnis cupiditate doloribus eligendi, repudiandae dolorum, sint sunt soluta perferendis deserunt et.<i class="fa-solid fa-mountain fa-xl bg-info d-block text-center py-4"></i></div>
+                <div class="col-md-4 mb-3"><i class="fa-solid fa-route fa-xl bg-info d-block text-center py-4"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fugiat vitae quibusdam hic dicta reiciendis reprehenderit, quas, eligendi fuga dolorum veritatis soluta officia culpa iste tenetur quaerat? Modi at magnam veritatis nihil, ipsam, ducimus officia provident esse suscipit reiciendis adipisci ea totam aspernatur sequi eum enim dolorum incidunt neque cum corporis repudiandae voluptatibus. Assumenda, dolorum illum architecto consequatur quia ipsa error natus beatae, eius, ullam reprehenderit iste facilis accusantium delectus repudiandae dolores corrupti voluptatibus labore at provident suscipit. Minima quasi rerum, molestias porro quod veniam sapiente totam distinctio omnis cupiditate doloribus eligendi, repudiandae dolorum, sint sunt soluta perferendis deserunt et.</div>
+            </div>
+            </div>
+          </section>
+          <!-- Seccion "destacados" 4 cards  -->
+          <section id="destacados">
+              <div class="container ">
+                  <h2 class="text-center text-light px-5">DESTACADOS</h2>
+                <div class="row">
+                  <div class="col-md-3 col-sm-10 mb-3">
+                    <div class="card" style="width: 14rem;">
+                      <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body bg-info">
+                        <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-10  mb-3">
+                    <div class="card" style="width: 14rem;">
+                      <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body bg-info">
+                        <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione assumenda architecto, nisi provident mollitia esse facere impedit molestiae eaque deleniti?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-10 mb-3">
+                    <div class="card" style="width: 14rem;">
+                      <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body bg-info">
+                        <p class="card-text text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima enim quidem ea excepturi dolorem architecto obcaecati, totam ab possimus praesentium.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-10  mb-3">
+                    <div class="card" style="width: 14rem;">
+                      <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body bg-info">
+                        <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in, tempore sint et error doloribus. Nihil itaque praesentium adipisci possimus!.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+          </section>
     </header>
-    
+
     <!-- script de Bootsrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
