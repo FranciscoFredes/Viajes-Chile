@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;  
 }
-/* Agregando smoth scroll  */
-html {
-    scroll-behavior: smooth;
+a   {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
 }
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+
+
