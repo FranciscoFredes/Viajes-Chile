@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;  
 }
-#quienes-somos {
-    background-color:#000;
-}
-#destacados {
-    background-color:#000;
-}
-footer {
-    width: 100%;
+/* Agregando smoth scroll  */
+html {
+    scroll-behavior: smooth;
 }
